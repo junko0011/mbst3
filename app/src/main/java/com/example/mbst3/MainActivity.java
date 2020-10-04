@@ -2,10 +2,12 @@ package com.example.mbst3;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.example.mbst3.audio.AudioFragment;
 import com.example.mbst3.healing.HealingFragment;
@@ -52,4 +54,5 @@ public class MainActivity extends AppCompatActivity {
                     return true;
                 }
             };
+
 }

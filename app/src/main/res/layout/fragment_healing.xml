@@ -15,6 +15,7 @@
         android:paddingRight="20dp"
         >
         <androidx.cardview.widget.CardView
+            android:id="@+id/healing_card1"
             android:layout_width="match_parent"
             android:layout_height="170dp"
             app:cardCornerRadius="10dp"
@@ -59,6 +60,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/healing_card2"
             android:layout_width="match_parent"
             android:layout_height="170dp"
             app:cardCornerRadius="10dp"
@@ -103,6 +105,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/healing_card3"
             android:layout_width="match_parent"
             android:layout_height="170dp"
             app:cardCornerRadius="10dp"
@@ -147,6 +150,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/healing_card4"
             android:layout_width="match_parent"
             android:layout_height="170dp"
             app:cardCornerRadius="10dp"
@@ -162,14 +166,14 @@
                 android:layout_height="match_parent"
                 >
                 <ImageView
-                    android:id="@+id/image1"
+                    android:id="@+id/image4"
                     android:src="@drawable/healing_card1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
-                    android:layout_alignBottom="@id/image1"
+                    android:layout_alignBottom="@id/image4"
                     android:background="#85493E60"
                     android:paddingLeft="20dp"
                     android:paddingTop="11dp"
@@ -179,7 +183,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
-                    android:layout_alignBottom="@id/image1"
+                    android:layout_alignBottom="@id/image4"
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp"
                     android:gravity="right"
