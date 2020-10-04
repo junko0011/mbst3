@@ -7,6 +7,11 @@ import androidx.fragment.app.Fragment;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.example.mbst3.audio.AudioFragment;
+import com.example.mbst3.healing.HealingFragment;
+import com.example.mbst3.home.HomeFragment;
+import com.example.mbst3.music.MusicFragment;
+import com.example.mbst3.video.VideoFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {

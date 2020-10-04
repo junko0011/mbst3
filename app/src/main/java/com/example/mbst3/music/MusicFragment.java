@@ -1,4 +1,4 @@
-package com.example.mbst3;
+package com.example.mbst3.music;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,10 +9,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-public class AudioFragment extends Fragment {
+import com.example.mbst3.R;
+
+public class MusicFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_audio,container,false);
+        return inflater.inflate(R.layout.fragment_music,container,false);
     }
 }
