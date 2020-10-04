@@ -1,4 +1,4 @@
-package com.example.mbst3.healing;
+package com.example.mbst3;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,12 +11,16 @@ import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
+<<<<<<< HEAD:app/src/main/java/com/example/mbst3/healing/HealingFragment.java
 import com.example.mbst3.R;
 
 public class HealingFragment extends Fragment implements View.OnClickListener {
 
     public CardView card1;
 
+=======
+public class HealingFragment extends Fragment {
+>>>>>>> parent of a1864d4... 힐링>카드뷰 xml 완성:app/src/main/java/com/example/mbst3/HealingFragment.java
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
